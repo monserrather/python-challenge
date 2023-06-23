@@ -57,7 +57,7 @@ with open(os.path.join(file_dir, 'Resources/budget_data.csv'),'r') as bd_file:
     print(f"Greatest Decrease in Profits: {greatest_decrease_date} (${greatest_decrease})\n")
 
     #Write results to text file
-    with open(os.path.join(file_dir, 'Resources/budget_data_results.txt'), 'w') as new_file:
+    with open(os.path.join(file_dir, 'analysis/budget_data_results.txt'), 'w') as new_file:
         new_file.write("\nFinancial Analysis\n")
         new_file.write("---------------------------------")
         new_file.write("\nTotal Months: "+str(row_count))

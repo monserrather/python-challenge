@@ -55,7 +55,7 @@ with open(os.path.join(file_dir, 'Resources/election_data.csv'),'r') as bd_file:
     print("---------------------------------")
 
     #Write results to text file
-    with open(os.path.join(file_dir, 'Resources/election_data_results.txt'), 'w') as new_file:
+    with open(os.path.join(file_dir, 'analysis/election_data_results.txt'), 'w') as new_file:
         new_file.write("\nElection Results\n")
         new_file.write("---------------------------------")
         for recs in range(len(candidate_count)):
